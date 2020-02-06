@@ -1,0 +1,24 @@
+.bg-gris {
+    background-color:$bg-gris;
+}
+
+//Fonts variables
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+$pacifico:'Pacifico';
+$montserrat: 'Montserrat', sans-serif;
+$lobster: 'Lobster', sans-serif;
+
+.montserrat{
+    font-family: $montserrat;
+}
+
+.lobster{
+    font-family: $lobster;
+}
+
+.pacifico{  
+    font-family: $pacifico;
+}

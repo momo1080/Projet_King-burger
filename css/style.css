@@ -1,0 +1,433 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+.bg-gris {
+  background-color: #494949;
+}
+
+.bg-gris {
+  background-color: #494949;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lobster {
+  font-family: "Lobster", sans-serif;
+}
+
+.pacifico {
+  font-family: "Pacifico";
+}
+
+.bg-header {
+  min-height: 105vh;
+  background-image: url(../media/header-photo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.h1, h1 {
+  font-size: 7.5rem;
+}
+
+.orange {
+  color: #d95204;
+}
+
+h1 {
+  margin-top: 30%;
+  margin-bottom: -0.5rem;
+}
+
+.lobster {
+  font-family: "Lobster", sans-serif;
+}
+
+.orange {
+  color: #D95204;
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  text-align: right;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #D95204;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .h1, h1 {
+    font-size: 5.5rem;
+  }
+
+  h1 {
+    margin-top: 40%;
+    margin-bottom: -0.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .h1, h1 {
+    align-items: center;
+    font-size: 4rem;
+  }
+
+  h1 {
+    margin-top: 10%;
+    margin-bottom: -0.5rem;
+  }
+
+  .navbar-toggler {
+    padding: 14px;
+  }
+
+  .nav-link {
+    text-align: center;
+    display: block;
+    padding: 1rem 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #D95204 !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .h1, h1 {
+    align-items: center;
+    font-size: 4rem;
+  }
+
+  h1 {
+    margin-top: 20%;
+    margin-bottom: -0.5rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 165px;
+    padding-left: 0;
+  }
+
+  .navbar-toggler {
+    padding: 14px;
+  }
+
+  .nav-link {
+    text-align: center;
+    display: block;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #D95204 !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .h1, h1 {
+    align-items: center;
+    font-size: 4rem;
+  }
+
+  h1 {
+    margin-top: 20%;
+    margin-bottom: -0.5rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 125px;
+    padding-left: 0;
+  }
+
+  .navbar-toggler {
+    padding: 16px;
+  }
+
+  .nav-link {
+    text-align: center;
+    display: block;
+    padding-top: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #D95204 !important;
+  }
+}
+.offres {
+  background-image: url("../media/fond-offre.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.img-dejeuner {
+  width: 160px;
+  height: 180px;
+}
+
+.pad-bot30 {
+  margin-bottom: 30%;
+}
+
+.title-offre {
+  font-size: 30px;
+}
+
+.offre-intitule {
+  font-size: 80px;
+}
+
+.offre-prix {
+  font-size: 20px;
+}
+
+.lobster {
+  font-family: "Lobster", sans-serif;
+}
+
+.text-orange {
+  color: #d95204;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.largentin {
+  font-size: 30px;
+}
+
+.moment {
+  font-size: 30%;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .offres {
+    background-image: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .offres {
+    background-image: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .offres {
+    background-image: none;
+  }
+}
+.bg-gris {
+  background-color: #494949;
+}
+
+.img-carte {
+  width: 310px;
+  height: 85px;
+}
+
+.title-carte {
+  font-size: 1.08rem;
+}
+
+.ingredients {
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+
+.americain::after {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 2px solid white;
+}
+
+.veggie::after {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 2px solid white;
+}
+
+.chicky::after {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 2px solid white;
+}
+
+.saonois::after {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 2px solid white;
+}
+
+.montagnard::after {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 2px solid white;
+}
+
+.funnyduck::after {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 2px solid white;
+}
+
+.vesoulr::after {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 2px solid white;
+}
+
+.funburger::after {
+  content: "";
+  display: block;
+  height: 0;
+  border-top: 2px solid white;
+}
+
+.livraison {
+  min-height: 300px;
+  background-image: url("../media/livraison.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.img-livraison {
+  width: 180px;
+  height: 110px;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lobster {
+  font-family: "Lobster", sans-serif;
+}
+
+.pacifico {
+  font-family: "Pacifico";
+}
+
+.site-livraison {
+  font-size: 40px;
+}
+
+.text-orange {
+  color: #d95204;
+}
+
+.portfolio-box-photo {
+  width: 270px;
+  height: 270px;
+  background-color: var(--grey-dark);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+
+.portfolio-box-photo:hover::before {
+  display: block;
+}
+
+.portfolio-box-photo-bg1 {
+  background-image: url(../media/insta-rognée.png);
+}
+
+.portfolio-box-photo-bg2 {
+  background-image: url(../media/insta-rognee-2.png);
+}
+
+.portfolio-box-photo-bg3 {
+  background-image: url(../media/insta-rognee-3.png);
+}
+
+.portfolio-box-photo-bg4 {
+  background-image: url(../media/img-instagram-4.jpg);
+}
+
+.portfolio-box-photo-bg5 {
+  background-image: url(../media/insta-rognee-5.png);
+}
+
+.portfolio-box-photo-bg6 {
+  background-image: url(../media/insta-rognee-6.png);
+}
+
+.portfolio-box-photo-bg7 {
+  background-image: url(../media/insta-rognée-7.png);
+}
+
+.portfolio-box-photo-bg8 {
+  background-image: url(../media/insta-rognee-9.png);
+}
+
+.titre-instagram-1 {
+  font-size: 20px;
+}
+
+.titre-instagram-2 {
+  font-size: 40px;
+}
+
+.img-contact {
+  width: 120px;
+  height: 65px;
+}
+
+.bordure-orange-left {
+  border-left: 2px solid #d95204;
+  height: 100px;
+}
+
+.bordure-orange-right {
+  border-right: 2px solid #d95204;
+  height: 100px;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+}
+
+.googlemap {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

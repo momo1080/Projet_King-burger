@@ -1,0 +1,53 @@
+.portfolio-box-photo{
+    width: 270px;
+    height: 270px;
+    background-color: var(--grey-dark);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:luminosity;
+}
+.portfolio-box-photo:hover::before{
+    display: block;
+
+}
+.portfolio-box-photo-bg1{
+    background-image:url(../media/insta-rognée.png);
+
+}
+.portfolio-box-photo-bg2{
+    background-image:url(../media/insta-rognee-2.png);
+    
+}
+.portfolio-box-photo-bg3{
+    background-image:url(../media/insta-rognee-3.png);
+    
+}
+.portfolio-box-photo-bg4{
+    background-image:url(../media/img-instagram-4.jpg);
+    
+}
+.portfolio-box-photo-bg5{
+    background-image:url(../media/insta-rognee-5.png);
+    
+}
+.portfolio-box-photo-bg6{
+    background-image:url(../media/insta-rognee-6.png);
+    
+}
+.portfolio-box-photo-bg7{
+    background-image:url(../media/insta-rognée-7.png);
+    
+}
+.portfolio-box-photo-bg8{
+    background-image:url(../media/insta-rognee-9.png);
+    
+}
+
+.titre-instagram-1{  
+    font-size: 20px;
+}
+
+.titre-instagram-2{
+
+    font-size: 40px;
+}

@@ -1,0 +1,69 @@
+.offres{
+    background-image: url("../media/fond-offre.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.img-dejeuner{
+    width:160px;
+    height:180px;
+}
+
+.pad-bot30{
+    margin-bottom: 30%;
+}
+
+.title-offre{
+    font-size:30px;
+}
+
+.offre-intitule{
+    font-size:80px;
+}
+
+.offre-prix{
+    font-size: 20px;
+}
+
+
+.lobster{
+    font-family: $lobster;
+}
+
+.text-orange{
+    color: $text-orange;
+}
+
+.montserrat{
+    font-family: $montserrat; 
+}
+
+.largentin{
+    font-size: 30px;
+}
+
+.moment{
+    font-size: 30%; 
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.offres{
+    background-image: none;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+.offres{
+        background-image: none;
+}  
+}
+
+@media (max-width: 575.98px) { 
+
+    .offres{
+        background-image: none;
+    }    
+    }

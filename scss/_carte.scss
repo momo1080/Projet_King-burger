@@ -1,0 +1,59 @@
+@mixin traits(){
+    &::after{
+        content: "";
+        display: block;
+        height: 0;
+        border-top: 2px solid white;
+    }
+}
+
+.bg-gris{
+    background-color:$bg-gris;
+}
+
+.img-carte{
+    width: 310px;
+    height: 85px;
+}
+
+.title-carte{
+    font-size:1.08rem;
+}
+
+.ingredients{
+font-size: 0.8rem;
+line-height: 21px;
+}
+
+.americain{
+@include traits;
+}
+
+.veggie{
+@include traits;  
+}
+
+.chicky{
+@include traits;   
+}
+
+.saonois{
+@include traits;   
+    }
+
+.montagnard{
+@include traits;   
+    }
+
+.funnyduck{
+@include traits;   
+    }
+
+.vesoulr{
+@include traits;   
+    }
+
+.funburger{
+@include traits;   
+    }
+
